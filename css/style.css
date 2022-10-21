@@ -1,0 +1,63 @@
+/* Declarar las constantes de colores y fuentes */
+:root{
+    /* fuentes */
+    --titulos:'Lato',sans-serif;
+    --parrafos:'Roboto',sans-serif;
+    /* colores */
+    --encabezado:#580d0d;
+    --piepagina:#000;
+    --enlace:#fff;
+    --enlaceSobre:#e2752c;
+    --fondo:url('../images/background.jpg');
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* selector universal (*) */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black ;
+}
+
+.home-wrapper{
+    background-image: url(../images/categorias/book2.jpg);
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    background-color: var(--encabezado); 
+    position: fixed;
+    padding: 10px 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 8px;
+}
+
+header img{
+    width: 200px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--enlace);
+    margin-left: 8px;
+}
